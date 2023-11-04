@@ -1,0 +1,28 @@
+public partial Form1 : Form
+{
+  private const int carSpeed = 5;
+  public Form1()
+  {
+    InitializeComponent();
+    KeyDown += Form1_KeyDown
+  }
+  private void
+Form1_KeyDown(object sender, KeyEventArgs e)
+  {
+    if (e.KeyCode == Keys.Left)
+    {
+      if (pictureBoxCar.Left > 0)
+      {
+          pictureBoxCar.Left -= carSpeed;
+      }
+    }
+  }
+  else if (e.KeyCode == Keys.Right)
+  {
+    if (pictureBoxCar.Right < this.ClientSize.Width)
+    {
+        pictureBoxCar.Left += carSpeed;
+      }
+    }
+  }
+}
