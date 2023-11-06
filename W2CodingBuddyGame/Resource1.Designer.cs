@@ -83,6 +83,16 @@ namespace W2CodingBuddyGame {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Audi2 {
+            get {
+                object obj = ResourceManager.GetObject("Audi2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Black_viper {
             get {
                 object obj = ResourceManager.GetObject("Black_viper", resourceCulture);
@@ -113,6 +123,16 @@ namespace W2CodingBuddyGame {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Mini_truck2 {
+            get {
+                object obj = ResourceManager.GetObject("Mini_truck2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Mini_van {
             get {
                 object obj = ResourceManager.GetObject("Mini_van", resourceCulture);
@@ -133,9 +153,9 @@ namespace W2CodingBuddyGame {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap preview_carspritespack {
+        internal static System.Drawing.Bitmap Police2 {
             get {
-                object obj = ResourceManager.GetObject("preview_carspritespack", resourceCulture);
+                object obj = ResourceManager.GetObject("Police2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -146,16 +166,6 @@ namespace W2CodingBuddyGame {
         internal static System.Drawing.Bitmap road {
             get {
                 object obj = ResourceManager.GetObject("road", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap sExplosion_strip3 {
-            get {
-                object obj = ResourceManager.GetObject("sExplosion_strip3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
